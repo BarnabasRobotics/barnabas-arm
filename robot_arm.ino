@@ -71,10 +71,10 @@ void syncTest() {
   extendMotor.write(EXTENDMOTOR_MAX);
   delay(1000);
   
-  clawMotor.write(CLAWMOTOR_MAX);
-  panMotor.write(PANMOTOR_MAX);
-  tiltMotor.write(TILTMOTOR_MAX);
-  extendMotor.write(EXTENDMOTOR_MAX);
+  clawMotor.write(CLAWMOTOR_MIN);
+  panMotor.write(PANMOTOR_MIN);
+  tiltMotor.write(TILTMOTOR_MIN);
+  extendMotor.write(EXTENDMOTOR_MIN);
 
   delay(1000);
   
