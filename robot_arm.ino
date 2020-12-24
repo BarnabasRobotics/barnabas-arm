@@ -21,7 +21,7 @@ Servo tiltMotor;
 Servo extendMotor;
 Servo clawMotor;
 
-int panMotorPin = 5;
+int panMotorPin = 6;
 int tiltMotorPin = 9;
 int extendMotorPin = 10;
 int clawMotorPin = 11;
